@@ -77,9 +77,11 @@
   border-top: 0 !important;
   border-bottom: 0 !important;
   padding: 0 4rem 0 4rem !important;
-  color: #ABB0B9 !important;
 }
 
+#cloudsponge-address-book .cloudsponge-title a {
+  color: #ABB0B9 !important;
+}
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list {
   margin: 0 3.2rem;
@@ -93,13 +95,24 @@
   background-color: #fff;
 }
 
+#cloudsponge-address-book ul.cloudsponge-contacts-list>li .cloudsponge-h3 {
+  font-weight: 600;
+}
+
+#cloudsponge-address-book ul.cloudsponge-contacts-list>li .cloudsponge-selected-mail {
+  position: absolute !important;
+  right: 0 !important;
+  color: #ABB0B9 !important;
+}
+
 
 #cloudsponge-address-book .cloudsponge-button.cloudsponge-export-button {
   right: 4rem !important;
   bottom: 4rem !important;
   background-color: #52DCB3 !important;
   color: #000000CC !important;
-  padding: 17px 25px !important;
+  padding: 17px 50px !important;
   font-size: 18px !important;
-  font-weight: 300;
+  font-weight: 400;
+  text-transform: none !important;
 }
