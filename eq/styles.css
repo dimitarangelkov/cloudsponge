@@ -37,6 +37,12 @@
   font-weight: 600 !important;
 }
 
+#cloudsponge-address-book .cloudsponge-providers-list li a {
+  background-color: transparent !important;
+  border-color: #52DCB3 !important;
+  color: #4D5461 !important;
+}
+
 #cloudsponge-address-book .cloudsponge-providers-list li a:hover {
   background-color: #52DCB3 !important;
 }
