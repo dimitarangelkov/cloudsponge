@@ -17,7 +17,7 @@
 
 
 #cloudsponge-address-book a {
-  color: #52DCB3 !important;
+  color: #5A20FF !important;
 }
 
 
@@ -77,6 +77,7 @@
   border-top: 0 !important;
   border-bottom: 0 !important;
   padding: 0 4rem 0 4rem !important;
+  color: #ABB0B9 !important;
 }
 
 
@@ -89,7 +90,7 @@
 }
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li.cloudsponge-selected .cloudsponge-row-container {
-  background-color: rgba(82, 220, 179, 0.3) !important;
+  background-color: #fff;
 }
 
 
@@ -100,4 +101,5 @@
   color: #000000CC !important;
   padding: 17px 25px !important;
   font-size: 18px !important;
+  font-weight: 300;
 }
