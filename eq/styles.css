@@ -15,17 +15,13 @@
   border-radius: 10px !important;
 }
 
-#cloudsponge-contacts-manager {
-  padding-top: 70px !important;
-}
-
-
 #cloudsponge-address-book a {
   color: #5A20FF !important;
 }
 
 
 #cloudsponge-address-book .cloudsponge-topbar {
+  height: 110px;
   color: #141921 !important;
   background-color: #fff !important;
   padding: 50px 20px 20px 20px !important;
