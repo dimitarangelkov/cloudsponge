@@ -36,3 +36,7 @@
   font-size: 22px !important;
   font-weight: 600 !important;
 }
+
+#cloudsponge-address-book .cloudsponge-providers-list li a:hover {
+  background-color: #52DCB3;
+}
