@@ -38,5 +38,5 @@
 }
 
 #cloudsponge-address-book .cloudsponge-providers-list li a:hover {
-  background-color: #52DCB3;
+  background-color: #52DCB3 !important;
 }
