@@ -92,14 +92,12 @@
   background-color: rgba(82, 220, 179, 0.3) !important;
 }
 
-#cloudsponge-address-book .cloudsponge-button {
-  background-color: #52DCB3 !important;
-  color: #000000CC !important;
-  padding: 17px 25px !important;
-  font-size: 18px !important;
-}
 
 #cloudsponge-address-book .cloudsponge-button.cloudsponge-export-button {
   right: 4rem !important;
   bottom: 4rem !important;
+  background-color: #52DCB3 !important;
+  color: #000000CC !important;
+  padding: 17px 25px !important;
+  font-size: 18px !important;
 }
