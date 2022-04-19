@@ -24,6 +24,7 @@
 #cloudsponge-address-book .cloudsponge-topbar {
   color: #141921 !important;
   background-color: #fff !important;
+  padding: 50px 20px 20px 20px !important;
   border-radius: 10px 10px 0 0 !important;
 }
 
@@ -38,7 +39,7 @@
 
 #cloudsponge-address-book .cloudsponge-topbar .cloudsponge-h1 {
   text-align: center;
-  font-size: 20px !important;
+  font-size: 22px !important;
   font-weight: 600 !important;
 }
 
@@ -61,7 +62,6 @@
 
 
 #cloudsponge-address-book .cloudsponge-header {
-  margin-top: 2rem !important;
   background-color: #fff !important;
 }
 
@@ -103,6 +103,10 @@
   color: #000000CC !important;
   font-weight: 400;
   text-transform: none !important;
+}
+
+#cloudsponge-address-book .cloudsponge-storage-message {
+  margin-bottom: 100px !important;
 }
 
 @media only screen and (min-width: 961px) {
