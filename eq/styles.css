@@ -63,7 +63,6 @@
 
 #cloudsponge-address-book .cloudsponge-header {
   margin-top: 2rem !important;
-  padding: 0px 4rem 1rem;
   background-color: #fff !important;
 }
 
@@ -76,16 +75,13 @@
   background-color: #fff !important;
   border-top: 0 !important;
   border-bottom: 0 !important;
-  padding: 0 4rem 0 4rem !important;
 }
 
 #cloudsponge-address-book .cloudsponge-title a {
   color: #ABB0B9 !important;
 }
 
-#cloudsponge-address-book ul.cloudsponge-contacts-list {
-  margin: 0 3.2rem;
-}
+
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li input[type=checkbox]:checked+label:before {
   color: #5A20FF !important;
@@ -106,13 +102,29 @@
 }
 
 
-#cloudsponge-address-book .cloudsponge-button.cloudsponge-export-button {
-  right: 4rem !important;
-  bottom: 4rem !important;
-  background-color: #52DCB3 !important;
-  color: #000000CC !important;
-  padding: 17px 50px !important;
-  font-size: 18px !important;
-  font-weight: 400;
-  text-transform: none !important;
+@media only screen and (min-width: 1001px) {
+
+  #cloudsponge-address-book .cloudsponge-header {
+    padding: 0px 4rem 1rem;
+  }
+
+  #cloudsponge-address-book .cloudsponge-title {
+    padding: 0 4rem 0 4rem !important;
+  }
+
+  #cloudsponge-address-book ul.cloudsponge-contacts-list {
+    margin: 0 3.2rem;
+  }
+
+  #cloudsponge-address-book .cloudsponge-button.cloudsponge-export-button {
+    right: 4rem !important;
+    bottom: 4rem !important;
+    background-color: #52DCB3 !important;
+    color: #000000CC !important;
+    padding: 17px 50px !important;
+    font-size: 18px !important;
+    font-weight: 400;
+    text-transform: none !important;
+  }
+
 }
