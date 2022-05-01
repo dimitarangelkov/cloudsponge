@@ -6,7 +6,6 @@
 #cloudsponge-address-book {
   padding: 2px !important;
   background-color: rgba(0,0,0,0.08) !important;
-  border-radius: 10px !important;
   font-family: helvetica, arial, sans-serif !important;
 }
 
@@ -62,8 +61,7 @@
 
 #cloudsponge-address-book .cloudsponge-providers-list li a {
   background-color: transparent !important;
-  border: 1px solid;
-  border-color: #52DCB3 !important;
+  border: 0 !important;
   color: #4D5461 !important;
 }
 
@@ -122,6 +120,10 @@
 
 @media only screen and (min-width: 961px) {
 
+  #cloudsponge-address-book {
+    border-radius: 10px !important;
+  }
+
   #cloudsponge-address-book .cloudsponge-header {
     padding: 0px 4rem 1rem;
   }
@@ -144,4 +146,10 @@
     font-size: 18px !important;
   }
 
+}
+
+@media (max-width: 400px), (max-device-width: 960px) and (orientation: landscape) {
+  #cloudsponge-address-book .cloudsponge-back-button {
+    top: 12px !important;
+  }
 }
