@@ -28,12 +28,18 @@
   border-radius: 10px 10px 0 0 !important;
 }
 
+#cloudsponge-address-book .cloudsponge-topbar .cloudsponge-close-button {
+  position: fixed !important;
+  top: 2rem !important;
+  right: 2rem !important;
+  color: #141921a6 !important;  
+}
+
 #cloudsponge-address-book .cloudsponge-back-button {
   color: #141921 !important;
 }
 
-#cloudsponge-address-book .cloudsponge-topbar .cloudsponge-menu-button, 
-#cloudsponge-address-book .cloudsponge-topbar .cloudsponge-close-button {
+#cloudsponge-address-book .cloudsponge-topbar .cloudsponge-menu-button {
   color: #141921 !important;
 }
 
