@@ -99,8 +99,8 @@
 
 
 #cloudsponge-address-book .cloudsponge-letter {
-  margin: 0.6rem 0;
-  padding: 18px 0 0 25px;
+  margin: 0.6rem 0 !important;
+  padding: 18px 0 0 25px !important;
 }
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li {
@@ -132,10 +132,12 @@
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li .cloudsponge-h3 {
   font-weight: 600;
+  padding: 0.2rem 0 !important;
 }
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li .cloudsponge-selected-mail {
   color: #ABB0B9 !important;
+  padding: 0.2rem 0 !important;
 }
 
 #cloudsponge-address-book .cloudsponge-button.cloudsponge-export-button {
