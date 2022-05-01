@@ -155,4 +155,9 @@
   #cloudsponge-address-book .cloudsponge-back-button {
     top: 12px !important;
   }
+
+  #cloudsponge-address-book .cloudsponge-button.cloudsponge-export-button {
+    top: 12px !important;
+    right: 12px !important;
+  }
 }
