@@ -6,7 +6,7 @@
 #cloudsponge-address-book {
   padding: 2px !important;
   background-color: rgba(0,0,0,0.08) !important;
-  font-family: helvetica, arial, sans-serif !important;
+  font-family: inherit !important;
 }
 
 #cloudsponge-address-book .cloudsponge-widget {
@@ -128,12 +128,10 @@
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li .cloudsponge-h3 {
   font-weight: 600;
-  padding: 0.2rem 0 !important;
 }
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li .cloudsponge-selected-mail {
   color: #ABB0B9 !important;
-  padding: 0.2rem 0 !important;
   font-size: 16px !important;
 }
 
