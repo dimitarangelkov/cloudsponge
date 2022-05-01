@@ -150,11 +150,11 @@
   text-transform: none !important;
 }
 
-#cloudsponge-address-book .cloudsponge-button.cloudsponge-export-button::before {
+#cloudsponge-address-book .cloudsponge-button.cloudsponge-export-button:before {
   display: block;
 }
 
-#cloudsponge-address-book .cloudsponge-button.cloudsponge-export-button::after {
+#cloudsponge-address-book .cloudsponge-button.cloudsponge-export-button:after {
   display: block;
 }
 
