@@ -37,6 +37,11 @@
 
 #cloudsponge-address-book .cloudsponge-back-button {
   color: #141921 !important;
+  top: 16px;
+}
+
+#cloudsponge-address-book .cloudsponge-glyph.back-arrow:before {
+  font-size: 16px;
 }
 
 #cloudsponge-address-book .cloudsponge-topbar .cloudsponge-menu-button {
