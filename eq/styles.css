@@ -55,6 +55,14 @@
 
 #cloudsponge-address-book .cloudsponge-providers-list {
   margin: 85px auto !important;
+  border-bottom: 1px solid #dee8ed;
+}
+
+#cloudsponge-address-book ul.cloudsponge-contacts-list>li {
+  height: auto !important;
+  padding: 1.8rem 0 1.8rem 0;
+  border-bottom: 1px solid #C6CBD3;
+  box-shadow: none !important;
 }
 
 #cloudsponge-address-book .cloudsponge-providers-list li a {
