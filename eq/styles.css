@@ -106,6 +106,7 @@
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li input[type=checkbox]:checked+label:before {
   color: #5A20FF !important;
+  content: "\e613" !important;
 }
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li.cloudsponge-selected .cloudsponge-row-container {
