@@ -52,17 +52,9 @@
 }
 
 
-
 #cloudsponge-address-book .cloudsponge-providers-list {
   margin: 85px auto !important;
   border: 0 !important;
-}
-
-#cloudsponge-address-book ul.cloudsponge-contacts-list>li {
-  height: auto !important;
-  padding: 1.8rem 0 1.8rem 0;
-  border-bottom: 1px solid #C6CBD3;
-  box-shadow: none !important;
 }
 
 #cloudsponge-address-book .cloudsponge-providers-list li a {
@@ -96,6 +88,20 @@
 }
 
 
+#cloudsponge-address-book .cloudsponge-letter {
+  margin: 0.6rem 0;
+}
+
+#cloudsponge-address-book ul.cloudsponge-contacts-list>li {
+  height: auto !important;
+  padding: 1.8rem 0 1.8rem 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #C6CBD3;
+  box-shadow: none !important;
+  margin: 0px 12px 0 12px !important;
+}
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li input[type=checkbox]:checked+label:before {
   color: #5A20FF !important;
