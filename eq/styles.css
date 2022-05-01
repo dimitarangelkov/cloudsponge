@@ -77,6 +77,16 @@
   border-color: #C6CBD3;
 }
 
+#cloudsponge-address-book .cloudsponge-input-holder .cloudsponge-glyph.search {
+  top: 14px !important;
+  left: 50px !important;
+  font-size: 20px !important;
+}
+
+#cloudsponge-address-book .cloudsponge-separator {
+  display: none !important;
+}
+
 #cloudsponge-address-book .cloudsponge-title {
   background-color: #fff !important;
   border-top: 0 !important;
@@ -95,18 +105,25 @@
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li {
   height: auto !important;
-  padding: 1.8rem 0 1.8rem 0;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 1px solid #C6CBD3;
+  padding: 1.8rem 0 1.8rem 0 !important;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 1px solid #C6CBD3 !important;
   box-shadow: none !important;
   margin: 0px 12px 0 12px !important;
 }
 
+#cloudsponge-address-book ul.cloudsponge-contacts-list>li input[type=checkbox]+label:before {
+  color: #6F7682 !important;
+  content: "\e613" !important;
+  font-size: 24px !important;
+}
+
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li input[type=checkbox]:checked+label:before {
   color: #5A20FF !important;
-  content: "\e613" !important;
+  content: "\e612" !important;
+  font-size: 24px !important;
 }
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li.cloudsponge-selected .cloudsponge-row-container {
