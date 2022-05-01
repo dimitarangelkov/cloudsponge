@@ -27,7 +27,7 @@
 
 #cloudsponge-address-book .cloudsponge-topbar .cloudsponge-close-button {
   position: fixed !important;
-  top: 2rem !important;
+  top: 4rem !important;
   right: 2rem !important;
   color: #141921a6 !important;  
 }
@@ -164,7 +164,7 @@
 @media only screen and (min-width: 961px) {
 
   #cloudsponge-contacts-manager {
-    height: 75% !important;
+    height: calc(100% - 13.5rem) !important;
   }
 
   #cloudsponge-address-book,
