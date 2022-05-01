@@ -90,6 +90,7 @@
 
 #cloudsponge-address-book .cloudsponge-letter {
   margin: 0.6rem 0;
+  padding: 18px 0 0 25px;
 }
 
 #cloudsponge-address-book ul.cloudsponge-contacts-list>li {
